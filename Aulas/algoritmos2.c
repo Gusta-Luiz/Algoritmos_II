@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include "algoritmos2.h"
-#include "inicializa.h"
 
 int buscaSequencial(int Vet[], int tam, int val, int* NumComp) 
 {   
