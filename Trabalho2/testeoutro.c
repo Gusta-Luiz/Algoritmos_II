@@ -25,7 +25,7 @@ char *permutar(char *pront, char *resto)
 {
     if (strlen(resto) == 0)
     {
-        //printf("%s\n", pront);
+        printf("%s\n", pront);
         return pront;
     }
     else
@@ -72,8 +72,8 @@ void subconjuntos(char *pront, char *resto)
  
 int main()
 {
-    char restante[100] = "abcd01234";
-    char pronto[100000] = "";
+    char restante[100] = "abcde01234";
+    char pronto[10000] = "";
 
     subconjuntos(pronto, restante);
     printf("\n---------------------------------\n");
